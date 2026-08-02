@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Tabelas</title>
+
+</head>
+<body><!--
+                    table -> tabela
+                    tr ->Table Row (linha de tabela)
+                    td ->Table Data (dados de tabela) * Table Cell (células da tabela)
+                    th ->Table header ( cabeçalho de Tabela)
+                    
+                    -->
+                    <h1>Tabelas</h1>
+                    <!--Não utilizar o border, apenas para fins de estudo, mais a frente iremos utilizar o CSS-->
+
+
+                    <table border="1">
+                          <tr>
+                            <th>Produtos</th>  
+                            <th>Quantidade </th>
+                            <th>Preço</th>          
+                          </tr>
+                          <tr>
+                             <td>Feijão</td>
+                             <td>10 kg</td>
+                             <td>R$: 40,00</td>           
+                          </tr>
+                          <td>Arroz</td>
+                          <td>10 kg</td>
+                           <td>R$: 25,00 </td>
+                           
+                           <!--
+                               colspan -> extensão da coluna
+                               rowspan -> extensão da linha.                                    
+                           -->
+                               <tr>
+                                 <td rowspan="2">Desconto</td>
+                                 <td colspan="2">Cupon 1 - R$: 10,00</td>
+                                 
+                               </tr>
+                                <tr>
+                                 
+                                 <td colspan="2">Cupon 2 - R$: 10,00</td>
+                                 
+                               </tr>
+
+                    </table>
+
+                    
+</body>
+</html>
