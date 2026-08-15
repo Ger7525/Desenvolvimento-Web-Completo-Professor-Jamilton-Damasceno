@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+
+.header{
+                    background-color: blue;
+}
+.header img{
+                    width: 250px;
+}
+.header a{
+                    color: white;
+}
+.header span{
+                    background-color: white;
+                    color: blue;
+}
+.propaganda{
+                    background-color: blueviolet;
+}
+h2{
+                    margin: 30px 0;
+}
+.produtos{
+                    text-align: center;
+}
+.produtos a img{
+                    width: 210px;
+                    
+}
