@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body{
+     background: #d2d2c1 url(img/fundo.png);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#principal{
+                    width: 900px;
+                    margin: 0 auto;
+}
+#menu{
+                    background:#c5c5b2 ;
+                    padding: 20px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+}
+#conteudo{
+                    background: #e8e8d9;
+                    padding: 10px;
+}
+#rodape{
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   align-content: center;
+}
+a{
+                    color:#4b566a;
+                    text-decoration: none;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    transition: all 0.3s;
+
+}
+a:hover{
+                    background:#4b566a ;
+                    color:#c5c5b2 ;
+}
+a:active{
+                    color: black;
+}
+h1{
+                  color:#828271;
+                  font-size: 1.2em;
+                  padding: 5px 20px;
+
+}
+p{
+                    line-height: 1.8;
+                    text-indent: 20px;
+                    text-align: justify;
+                    padding:5px 20px;
+                    color: black;
+}
+.img{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+                    
+}
+.contato{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+}
