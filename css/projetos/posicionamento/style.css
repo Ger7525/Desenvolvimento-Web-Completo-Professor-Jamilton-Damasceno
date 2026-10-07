@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+*{
+                    margin: 0;
+                    padding: 0;
+}
+body{
+                    background-color: lightskyblue;
+}
+#container{
+                    margin: 30px auto;
+                    background-color: white;
+                    width: 1000px;
+                    position: relative;
+}
+#header{
+                    background-color: blue;
+                   
+                    padding: 10px;
+                    position: relative;
+                    left: 30px;
+                    top: 30px;
+                    width: 920px;
+                    height: 100px;
+                    
+}
+.logo{
+                    position: absolute;
+                    top: 30px;
+                    left: 30px;
+                    width: 200px;
+}
+.menu{
+                    position: absolute;
+                    top: 40px;
+                    left: 230px;
+}
+.menu a:link{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 1.3em;
+                    font-weight: bold;
+                    padding: 8px 16px;
+                    transition: all 0.5s;
+                
+                   
+}                   
+.menu a:hover{
+                    background-color: white;
+                    color: blue;
+}
+.logo-2{
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    width: 200px;
+                    z-index: 10;
+}
+.chat{
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    width: 250px;
+                    height: 200px;
+                    z-index: 10;
+                    padding: 10px;
+                    background-color: hotpink;
+}
+.chat h3{
+                    
+                    color: black;
+                    font-weight: bold;
+                    padding:20px 0;
+
+}
+.chat button{
+                    padding: 10px 20px;
+                    background-color: white;
+                    color:black;
+                    font-weight: bold;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+}
+
+p{
+                    text-align: justify;
+                    font-size: 1.3em;
+                    padding: 10px;
+}
+h1{
+                    font-size: 2.3em;
+                    padding: 10px;
+}
+#conteudo{
+                   margin-top: 50px;
+                    padding: 20px;
+                    width: 920px;
+}
+footer p{
+                    background-color: blue;
+                    color: white;
+                    text-align: center;
+                    padding: 10px;
+}
