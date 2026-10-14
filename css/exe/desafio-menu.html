@@ -21,46 +21,56 @@
                                         color: white;
                                         background-color: yellow;
                                         padding: 20px 20px 20px 0;
-                                        width: 150px;
+                                        width: 200px;
+                                        margin-left: 10px;
                                        
 
                          }   
-                         #menu-lateral ul li{
+                         #menu-lateral ul li a{
                                         font-size: 1.5em;
                                         margin: 10px 0 10px 0;
                                         font-weight: bold;
                                         cursor: pointer;
+                                        text-decoration: none;
                                         transition: all 0.3s;
+                                        color: white;
+                                        padding:5px;
                                        
                          }  
-                         #menu-lateral ul li:hover{
+                         #menu-lateral ul li a:hover{
                                         background-color: white;
                                         color: yellow;
+                                        padding-left: 2em;
+                         }
+                         #menu-lateral ul li a:active{
+                                background-color: rgb(124, 124, 9);
+                                border-radius:  0 25px 25px 0;
+                                padding-left: 0.5em;
                          }       
                     </style>
 
 
 </head>
 <body>
-                    <div id="principal">
-                            <div id="menu-lateral">
-                                        <h2>Menu Lateral</h2>
-                                        <ul>
-                                                            <li><span class="material-symbols-outlined">
-                                                            send
-                                                            </span>Home</li>
-                                                            <li><span class="material-symbols-outlined">
-                                                            send
-                                                            </span>Produto</li>
-                                                            <li><span class="material-symbols-outlined">
-                                                            send
-                                                            </span>Carrinho</li>
-                                                            <li><span class="material-symbols-outlined">
-                                                            send
-                                                            </span>Contato</li>
-                                        </ul>
-                            </div>            
-                    </div>
+        <div id="principal">
+                <div id="menu-lateral">
+                        <h2>Menu Lateral</h2>
+                        <ul>
+                                <li><span class="material-symbols-outlined">
+                                send
+                                </span><a href="desafio-menu.html">Home</a></li>
+                                <li><span class="material-symbols-outlined">
+                                send
+                                </span><a href="pag-menu/produtos.html">Produto</a></li>
+                                <li><span class="material-symbols-outlined">
+                                send
+                                </span><a href="pag-menu/contato.html">Carrinho</a></li>
+                                <li><span class="material-symbols-outlined">
+                                send
+                                </span><a href="pag-menu/contato.html">Contato</a></li>
+                        </ul>
+                </div>            
+        </div>
                     
 </body>
 </html>

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+body{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background: #fff url(imagens/fundo.png) repeat-x;
+}
+#container{
+   width: 750px;
+   margin:0 auto;
+   
+  
+}
+#topo{
+   margin: 0 auto;
+   width: 750px;
+   height: 200px;
+   background: url(imagens/detalhe-topo.png)  no-repeat right;
+  
+   padding-top: 25px;
+}
+.logo{
+   width: 152px;
+   height:66px ;
+   background: url(imagens/logo.png);
+   text-indent:-1000px;
+}
+/*navegação*/
+ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+#topo ul{
+   margin-top: 30px;
+   background: #b10333;
+   float: left;
+   border: 3px solid #69001d ;
+}
+#topo ul li{
+   float: left;
+}
+#topo ul a{
+   font-size: 0.9em;
+   display: block;
+   padding: 0.5em 1.5em;
+   line-height: 2.1em;
+   text-decoration: none;
+   color: white;
+   background: url(imagens/divisor.png) no-repeat left;
+
+}
+#topo ul .primeiro a{
+   background: none;
+}
+#topo ul a:hover{
+   color: #69001d;
+} 
