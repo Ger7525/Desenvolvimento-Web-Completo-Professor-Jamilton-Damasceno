@@ -10,7 +10,7 @@ body{
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    background: #fff url(imagens/fundo.png) repeat-x;
 }
-#container{
+#contaner{
    width: 750px;
    margin:0 auto;
    
@@ -60,4 +60,50 @@ ul{
 }
 #topo ul a:hover{
    color: #69001d;
+}
+body.home #navegacao a#home, 
+body.brasil #navegacao a#brasil, 
+body.internacional #navegacao a#internacional, 
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude, 
+body.ciencia #navegacao a#ciencia, 
+body.fotos #navegacao a#fotos{
+   color: #fff;
+   background-color: #de003e;
+   cursor: text;
+
 } 
+/* configuração layout de trÊs colunas*/
+#conteudo{
+   margin-top: 60px;
+   background: #f5f5f6;
+}
+#primario{
+   width: 270px;
+   float: left;
+   margin: 0 0 20px 195px;
+   background: blue;
+}
+#secundario{
+   width: 270px;
+   float: left;
+    margin: 0 0 20px 15px;
+   background: green;
+}
+#lateral{
+   width: 180px;
+   float: left;
+    margin: 0 0 20px -750px;
+   background: yellow;
+}
+
+/*Rodapé*/
+#container-rodape{
+   background-color: #294c71;
+   padding: 20px;
+}
+#rodape{
+   width: 750px;
+   margin: 0 auto;
+   color:#fff ;
+}
