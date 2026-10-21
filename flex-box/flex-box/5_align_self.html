@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Alinhamento | Align content</title>
+   <style>
+      body{
+         background-color: black;
+         
+      }
+      h1, h2, h3{
+         color: white;
+         text-align: center;
+
+      }
+      .container-flex{
+         width: 700px;
+         height: 40px;
+         border: 4px solid red;
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         align-items: center;
+         flex-wrap: wrap;
+         margin: 0 auto;
+
+      }
+      .container-flex > div{
+        
+         border: 4px solid white;
+         padding: 4px;
+         margin: 4px;
+         color: white;
+         flex-basis: 180px;
+      }
+      .coluna{
+         flex-direction: column;
+      }
+      .item{
+         align-self:flex-start;
+      }
+      .item1{
+        
+         flex-grow:1 ;
+         flex-shrink: 1;
+      }
+      
+      
+      .item2{
+         
+         flex-grow: 2;
+         flex-shrink: 2;
+      }
+      
+      
+      .item3{
+         
+         flex-grow:3;
+         flex-shrink: 3;
+      }
+   </style>
+</head>
+<body>
+   <h1>display Flex</h1>
+   <h2>align self</h2>
+   <h3>row</h3>
+   <div class="container-flex">
+      <div class="item1">Item texte 01</div>
+      <div class="item2">Item texte 02</div>
+      <div class="item3">Item texte 03</div>
+   </div> 
+   
+   <h3>column</h3>
+   <div class="container-flex coluna">
+      <div>01</div>
+      <div class="item">02</div>
+      <div>03</div>
+   </div> 
+  
+
+
+   
+</body>
+</html>
+
