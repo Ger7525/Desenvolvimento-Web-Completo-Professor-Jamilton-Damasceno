@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Grid - Colunas</title>
+   <style>
+      body{
+         font-size: 2em;
+         background-color: black;
+         color: white;
+      }
+      #container{
+         border: 1px solid red;
+         display: grid;
+         gap: 10px;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas:
+            'header header' 
+            'main nav'
+            'main nav'
+            'footer footer'
+        
+        
+        ;
+      }
+      header,
+      main,
+      nav,
+      footer{
+         border: 1px solid yellow;
+      }
+      header{grid-area: header;}
+      nav{grid-area: nav;}
+      main{grid-area: main;}
+      footer{grid-area: footer;}
+      
+
+     
+      </style>
+</head>
+<body>
+   <div id="container">
+      <header>Cabeçalho</header>
+      <nav>Home | Sobre Nós | Serços | lojas | Carrinho </nav>
+      <main>
+         <h1>texto 1</h1>
+
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quos a quis eius, doloribus laudantium accusamus eos exercitationem ea recusandae voluptas sed repellendus, perspiciatis, at facere perferendis quasi ab inventore.</p>
+      </main>
+     <footer>
+      rodapé
+     </footer>
+   </div>
+  
+   
+</body>
+</html>
