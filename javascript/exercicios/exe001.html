@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>faixa etária</title>
+</head>
+<body>
+   <script>
+      alert('faixa etária')
+      var nome = prompt('Digite seu nome')
+      var idade = prompt('Olá '+ nome + ' Digite sua idade')
+      idade  = parseInt(idade)
+
+
+      if(idade >= 0 && idade <15){
+         document.write('<h1 style="color:#444">Sr.(a) '+ nome + ' sua faixa etária é de criança</h1>')
+      }
+      else if(idade >= 15 && idade <30){
+         document.write('<h1 style="color:#555">Sr.(a) '+ nome + ' sua faixa etária é de Jovem</h1>')
+      }
+      else if(idade >= 30 && idade <60){
+         document.write('<h1 style="color:#666">Sr.(a) '+ nome + ' sua faixa etária é de Adulto</h1>')
+      }
+      else if(idade >=60){
+         document.write('<h1 style="color:#777">Sr.(a) '+ nome + ' sua faixa etária é de idoso</h1>')
+      }
+   </script>
+   
+</body>
+</html>

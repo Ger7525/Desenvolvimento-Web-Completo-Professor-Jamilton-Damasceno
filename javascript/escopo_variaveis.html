@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Escopo de Variaveis</title>
+</head>
+<body>
+   <script>
+    var series = "Game of Thrones";  
+
+      // esopo de bloco
+    if(true){
+      var series2 = "Breaking Bad";
+      document.write(series + '<br/>');
+    }
+    document.write(series2 + '<br/>');
+
+    function X(){
+      var series3 = "The Witcher";
+      document.write(series2 + '<br/>');
+      document.write(series + '<br/>');
+      document.write(series3 + '<br/>');
+    }
+    X()
+
+    document.write(series3 + '<br/>');
+
+
+   </script>
+
+   
+</body>
+</html>

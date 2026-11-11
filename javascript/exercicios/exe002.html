@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>exercicio 002</title>
+</head>
+<body>
+   <h1>Calculo do Imc</h1>
+   <script>
+      var nome = prompt('Digite seu nome')
+      var altura = prompt('Olá, '+nome+ ' Digite sua altura')
+      var peso = prompt('Agora Digite o seu peso')
+      altura=parseFloat(altura)
+      peso=parseFloat(peso)
+      var imc = peso / (altura *altura)
+      imc=parseInt(imc)
+       
+      if(imc <16){
+         document.write('Sr.(a) '+nome+ ' você possui índice de massa corporal a '+imc+ ' , sendo classificado como Baixo peso muito grave')
+      }
+      else if(imc >=16 && imc < 16.99){
+         document.write('Sr.(a) ' +nome+ ' você possui índice de massa corporal a '+imc+ ' , sendo classificado como Baixo peso grave') 
+      }
+      else if(imc >=17 && imc < 18.49){
+         document.write('Sr.(a) '+nome+ ' você possui índice de massa corporal a '+imc+ ' , sendo classificado como Baixo peso') 
+      }
+      else if(imc >=18.50 && imc < 24.99){
+         document.write('Sr.(a) '+nome+ ' você possui índice de massa corporal a '+imc+ ' , sendo classificado como peso normal') 
+      }
+      else if(imc >=18.50 && imc < 24.99){
+         document.write('Sr.(a) '+nome+ ' você possui índice de massa corporal a '+imc+ ' , sendo classificado como peso normal') 
+      }
+      else if(imc >=25 && imc < 29.99){
+         document.write('Sr.(a) '+nome+ ' você possui índice de massa corporal a '+imc+ ' , sendo classificado como sobrepeso') 
+      }
+      else if(imc >=30 && imc < 34.99){
+         document.write('Sr.(a) '+nome+ ' você possui índice de massa corporal a '+imc+ ' , sendo classificado como Obesidade Grau I') 
+      }
+      else if(imc >=35 && imc < 39.99){
+         document.write('Sr.(a) '+nome+ ' você possui índice de massa corporal a '+imc+ ' , sendo classificado como Obesidade Grau 2') 
+      }
+      else if(imc >=40 ){
+         document.write('Sr.(a) '+nome+ ' você possui índice de massa corporal a '+imc+ ' , sendo classificado como Obesidade Grau 3') 
+      }
+
+
+
+
+   </script>
+   
+</body>
+</html>

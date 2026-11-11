@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Exercicio 003</title>
+</head>
+<body>
+
+   <script>
+/* alert('digite dois numeros e escolha as opção de calculo')
+      var n1 = prompt('Digite o primeiro numero')
+     
+      var n2 = prompt("digite outro numero")
+       var opcao = prompt('digite S para soma e M para Multiplicação ')
+
+      function cal(n1, n2, opcao) {
+
+         n1 = parseFloat(n1)
+         n2 = parseFloat(n2)
+
+         var resultado = 0
+
+         if(opcao == s){
+            resultado = n1 + n2
+         }
+         if(opcao == m){
+            resultado = n1 * n2
+
+
+         }
+
+         return resultado
+         
+      }
+
+      document.white('O resultado é ' + cal(n1, n2, opcao)) */$
+
+
+            var num1 = prompt('Digite um número');
+            var operacao = prompt('Digite a operação');
+            var num2 = prompt('Digite outro número');
+            
+            
+            function calc(num1, num2, operacao){
+               num1 = parseFloat(num1);
+               num2 = parseFloat(num2);
+               
+               var resultado = 0;
+               
+               if(operacao == soma){
+                     resultado = num1 + num2;
+               }
+               if(operacao == 'subtracao'){
+               resultado = num1 - num2;
+               }
+               return resultado;
+            }
+               document.write('O resultado é: ' + calc(num1, num2, operacao));
+
+      
+   </script>
+   
+</body>
+</html>
